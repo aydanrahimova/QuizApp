@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    password: "***"
+    url: "jdbc:postgresql://localhost:5432/quiz_app_db"
+    username: "postgres"
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    show-sql: true
